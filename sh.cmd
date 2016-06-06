@@ -10,7 +10,6 @@ set SH_BOOT=%SH_BUILDERPATH%\boot.cmd
 set SH_BUILD=%~dp0node_modules\.bin\gulp.cmd
 
 if "%1" neq "builder" (
-    echo.
     echo Usage: %SH_PROGRAM% builder [tasks]
     goto :error
 )

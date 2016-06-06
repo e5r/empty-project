@@ -2,11 +2,11 @@
 {{% project.name %}} team
 =========================
 
-- Name, @contact
-- Name, @contact
+- Name, @link
+- Name, @link
 
 Special thanks to
 -----------------
 
-- Name, component
-- Name, component
+- Name, for contribution, @link
+- Name, for contribution, @link

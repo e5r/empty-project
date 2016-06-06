@@ -2,4 +2,8 @@
 {{% project.name %}} Changelog
 ==============================
 
-TODO...
+0.0.0 Month-Day-Year
+====================
+- Added
+- Deprecated
+- Fixed

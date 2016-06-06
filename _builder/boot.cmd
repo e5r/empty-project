@@ -7,7 +7,6 @@ set BOOT_CHECK=%~dp0check.cmd
 set BOOT_NODEMINVERSION=5
 set BOOT_NPMMINVERSION=3
 
-echo.
 echo Initializing prerequisites...
 
 :: Requires NodeJS
@@ -27,6 +26,7 @@ node -e "process.exit(require('child_process').execSync('npm --version').toStrin
 if "%ERRORLEVEL%" neq "0"; goto :nonpm
 
 echo - Installing NPM packages...
+
 npm install
 if "%ERRORLEVEL%" neq "0"; goto :noinstallpkg
 

@@ -11,18 +11,17 @@ SH_CHECK="$SH_BUILDERPATH/check.sh"
 SH_BOOT="$SH_BUILDERPATH/boot.sh"
 SH_BUILD="$SH_SCRIPTDIR/node_modules/.bin/gulp"
 
-if [ ! $SH_PROGRAM = 'sh' ]; then
-    echo ""
-    echo "Usage: sh builder [tasks]"
+if ! sh $SH_CHECK; then
+    if ! sh $SH_BOOT; then
+        echo Boot failed. Check prerequisites.
+        exit 1
+    fi
 fi
 
-if [ [ ! sh $SH_CHECK ] -a [ ! sh $SH_BOOT ] ]; then
-    echo Boot failed. Check prerequisites.
-    exit 1
-fi
-
-shift
-if ! sh $SH_BUILD %*; then
+if ! $SH_BUILD "$@"; then
     echo Build failed.
     exit 1
 fi
+
+exit $?
+

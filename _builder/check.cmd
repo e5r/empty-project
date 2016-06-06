@@ -9,10 +9,10 @@ set CHECK_ROOTGULPFILE=%~dp0..\gulpfile.js
 
 if not exist %CHECK_ROOTPACKAGE%; goto :nopackage
 if not exist %CHECK_ROOTGULPFILE%; goto :nogulpfile
-if not exist %CHECK_NODEMODULES%\.bin; goto :error
 if not exist %CHECK_NODEMODULES%\gulp; goto :nogulp
 if not exist %CHECK_NODEMODULES%\gulp-util; goto :nogulputil
 if not exist %CHECK_NODEMODULES%\run-sequence; goto :norunsequence
+if not exist %CHECK_NODEMODULES%\.bin; goto :error
 
 goto :finish
 

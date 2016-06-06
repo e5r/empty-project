@@ -16,7 +16,7 @@ if [ ! $SH_PROGRAM = 'sh' ]; then
     echo "Usage: sh builder [tasks]"
 fi
 
-if [ ! sh $SH_CHECK -a ! sh $SH_BOOT ]; then
+if [ [ ! sh $SH_CHECK ] -a [ ! sh $SH_BOOT ] ]; then
     echo Boot failed. Check prerequisites.
     exit 1
 fi

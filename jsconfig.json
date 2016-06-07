@@ -4,8 +4,8 @@
         "module": "commonjs"
     },
     "exclude": [
-        "node_modules",
         "_builder",
-        "doc"
+        "doc",
+        "node_modules"
     ]
 }

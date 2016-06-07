@@ -1,7 +1,8 @@
 #!/bin/sh
 
 # Copyright (c) E5R Development Team. All rights reserved.
-# Licensed under the Apache License, Version 2.0. More license information in LICENSE.txt.
+# Licensed under the Apache License, Version 2.0.
+# More license information in https://github.com/e5r/licenses/blob/master/notices/empty-project.rst.
 
 CHECK_SCRIPTFILE=`readlink -f ${0}`
 CHECK_SCRIPTDIR=`dirname $CHECK_SCRIPTFILE`

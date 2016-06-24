@@ -1,5 +1,5 @@
 =======================
-{% project.name %} team
+{% wizard.name %} team
 =======================
 
 - Name, @link

@@ -1,5 +1,5 @@
 ==================================
-Contributing to {% project.name %}
+Contributing to {% wizard.name %}
 ==================================
 
 TODO...

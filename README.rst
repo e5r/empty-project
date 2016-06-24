@@ -1,5 +1,5 @@
 ==================
-{% project.name %}
+{% wizard.name %}
 ==================
 
 Prerequisites

@@ -1,0 +1,49 @@
+{
+    "message": [
+        " _ _ _  _                  _",
+        "| | | |<_>.___ ___  _ _  _| |",
+        "| | | || | / /<_> || '_>/ . |",
+        "|__/_/ |_|/___<___||_|  \\___|",
+        "",
+        "-----------------------------------------",
+        "E5R Development Team - New Project v1.0.0",
+        "-----------------------------------------"
+    ],
+    "properties": [
+        {
+            "name": "name",
+            "default": "{% DIRNAME %}"
+        },
+        {
+            "name": "description",
+            "default": "A empty project"
+        },
+        {
+            "name": "version",
+            "default": "1.0.0",
+            "match": "^([0-9]{1,2}).([0-9]{1,2}).([0-9]{1,2})$"
+        },
+        {
+            "name": "author",
+            "default": "E5R Development Team"
+        },
+        {
+            "name": "license",
+            "default": "Apache-2.0"
+        },
+        {
+            "name": "useDev",
+            "default": "true"
+        }
+    ],
+    "excludes": [
+        {
+            "path": ".gitignore",
+            "if": "always"
+        },
+        {
+            "path": "_builder/dev",
+            "if": "wizard.useDev !== true"
+        }
+    ]
+}

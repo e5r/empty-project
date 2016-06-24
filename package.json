@@ -1,9 +1,9 @@
 {
-    "name": "{% project.name %}",
+    "name": "{% wizard.name %}",
     "version": "1.0.0",
-    "description": "{% project.description %}",
-    "author": "{% project.author %}",
-    "license": "{% project.license %}",
+    "description": "{% wizard.description %}",
+    "author": "{% wizard.author %}",
+    "license": "{% wizard.license %}",
     "readme": "README.rst",
     "devDependencies": {
         "gulp": "~3.9.1",

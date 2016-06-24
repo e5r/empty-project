@@ -32,6 +32,7 @@
             "default": "Apache-2.0"
         },
         {
+            "title": "Use E5R Development Tool?",
             "name": "useDev",
             "default": "true"
         }

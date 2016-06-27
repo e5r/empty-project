@@ -12,11 +12,11 @@
     "properties": [
         {
             "name": "name",
-            "default": "{% builtin.folderName + '_new' %}"
+            "default": "{% 'project_' + builtin.folderName %}"
         },
         {
             "name": "description",
-            "default": "A empty project.\n  Created on: {%builtin.year%}/{%  builtin.month  %}/{%builtin.day    %} - {% count=0;count %}({% count++;count %}), ({% count++;count %}), ({% count++;count %}), ({% count++ %})"
+            "default": "A empty project.\n  Created on: {% builtin.year %}/{% builtin.month %}/{% builtin.day %}"
         },
         {
             "name": "version",

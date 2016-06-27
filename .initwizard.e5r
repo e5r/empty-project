@@ -12,7 +12,7 @@
     "properties": [
         {
             "name": "name",
-            "default": "{% builtin.folderName %}"
+            "default": "{% builtin.folderName + '_new' %}"
         },
         {
             "name": "description",

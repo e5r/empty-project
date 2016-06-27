@@ -35,7 +35,10 @@
             "title": "Use E5R Development Tool?",
             "name": "useDev",
             "default": "yes",
-            "options": "yes|no"
+            "options": [
+                "yes",
+                "no"
+            ]
         }
     ],
     "excludes": [

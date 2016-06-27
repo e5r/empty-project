@@ -16,7 +16,7 @@
         },
         {
             "name": "description",
-            "default": "A empty project.\n  Created on: {%builtin.year%}/{%  builtin.month  %}/{%bultin.day    %} - {% count=0 %}({% count++ %}), ({% count++ %}), ({% count++ %}), ({% count++ %})"
+            "default": "A empty project.\n  Created on: {%builtin.year%}/{%  builtin.month  %}/{%builtin.day    %} - {% count=0 %}({% count++ %}), ({% count++ %}), ({% count++ %}), ({% count++ %})"
         },
         {
             "name": "version",

@@ -1,0 +1,11 @@
+# Temp files
+build/
+dist/
+node_modules/
+
+# Extra Package Manager
+{% !wizard.useBower ? '#' : '' %}bower_components/
+{% !wizard.useNuGet ? '#' : '' %}packages/
+
+*.log
+*.tmp

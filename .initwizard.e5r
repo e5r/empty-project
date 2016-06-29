@@ -5,7 +5,6 @@
         "| | | || | / /<_> || '_>/ . |",
         "|__/_/ |_|/___<___||_|  \\___|",
         "",
-        "-----------------------------------------",
         "E5R Development Team - New Project v1.0.0",
         "-----------------------------------------"
     ],
@@ -39,9 +38,27 @@
                 "yes",
                 "no"
             ]
+        },
+        {
+            "title": "Manage packages Bower?",
+            "name": "useBower",
+            "default": "yes",
+            "options": [
+                "yes",
+                "no"
+            ]
+        },
+        {
+            "title": "Manage packages NuGet?",
+            "name": "useNuGet",
+            "default": "no",
+            "options": [
+                "yes",
+                "no"
+            ]
         }
     ],
-    "excludes": [
+    "remove": [
         {
             "path": ".gitignore",
             "if": "always"
@@ -50,5 +67,16 @@
             "path": "_builder/dev",
             "if": "wizard.useDev !== true"
         }
+    ],
+    "rename": [
+        {
+            ".gitignore": ".gitignore_project"
+        }
+    ],
+    "expandExcludes": [
+        "_builder/",
+        "doc/",
+        "src/",
+        "test"
     ]
 }

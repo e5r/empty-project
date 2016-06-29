@@ -75,7 +75,8 @@
     ],
     "expandExcludes": [
         "_builder/.+",
-        "doc/.+",
+        "doc/dev",
+        "doc/user",
         "src/.+",
         "test/.+",
         "\\.gitignore"

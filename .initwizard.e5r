@@ -74,9 +74,10 @@
         }
     ],
     "expandExcludes": [
-        "_builder/",
-        "doc/",
-        "src/",
-        "test"
+        "_builder/.+",
+        "doc/.+",
+        "src/.+",
+        "test/.+",
+        ".gitignore"
     ]
 }

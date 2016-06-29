@@ -80,5 +80,8 @@
         "src/.+",
         "test/.+",
         "\\.gitignore"
+    ],
+    "copyExcludes": [
+        "\\.gitignore"
     ]
 }

@@ -4,8 +4,8 @@ dist/
 node_modules/
 
 # Extra Package Manager
-{% !wizard.useBower ? '#' : '' %}bower_components/
-{% !wizard.useNuGet ? '#' : '' %}packages/
+{% wizard.useBower !== 'yes' ? '#' : '' %}bower_components/
+{% wizard.useNuGet !== 'yes' ? '#' : '' %}packages/
 
 *.log
 *.tmp

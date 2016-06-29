@@ -1,6 +1,6 @@
-{% Array((wizard.name).length).join('=') %}
+{% Array((wizard.name).length+1).join('=') %}
 {% wizard.name %}
-{% Array((wizard.name).length).join('=') %}
+{% Array((wizard.name).length+1).join('=') %}
 
 Prerequisites
 -------------

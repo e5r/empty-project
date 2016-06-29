@@ -1,6 +1,6 @@
-{% Array((wizard.name + ' team').length).join('=') %}
+{% Array((wizard.name + ' team').length+1).join('=') %}
 {% wizard.name %} team
-{% Array((wizard.name + ' team').length).join('=') %}
+{% Array((wizard.name + ' team').length+1).join('=') %}
 
 - Name, @link
 - Name, @link

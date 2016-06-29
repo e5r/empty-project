@@ -78,6 +78,6 @@
         "doc/.+",
         "src/.+",
         "test/.+",
-        ".gitignore"
+        "\\.gitignore"
     ]
 }

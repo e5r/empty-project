@@ -60,7 +60,7 @@
         {
             "title": "Use Git?",
             "name": "useGit",
-            "default": "no",
+            "default": "yes",
             "options": [
                 "yes",
                 "no"

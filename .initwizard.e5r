@@ -60,11 +60,11 @@
     ],
     "remove": [
         {
-            "match": ".gitignore",
+            "match": "\\.gitignore",
             "if": "true"
         },
         {
-            "match": "_builder/dev",
+            "path": "_builder/dev",
             "if": "wizard.useDev !== 'yes'"
         }
     ],

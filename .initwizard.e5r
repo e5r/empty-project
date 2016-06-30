@@ -60,12 +60,12 @@
     ],
     "remove": [
         {
-            "path": ".gitignore",
-            "if": "always"
+            "match": ".gitignore",
+            "if": "true"
         },
         {
-            "path": "_builder/dev",
-            "if": "wizard.useDev !== true"
+            "match": "_builder/dev",
+            "if": "wizard.useDev !== 'yes'"
         }
     ],
     "rename": [

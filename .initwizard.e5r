@@ -56,6 +56,15 @@
                 "yes",
                 "no"
             ]
+        },
+        {
+            "title": "Use Git?",
+            "name": "useGit",
+            "default": "no",
+            "options": [
+                "yes",
+                "no"
+            ]
         }
     ],
     "remove": [
@@ -66,6 +75,10 @@
         {
             "path": "_builder/dev",
             "if": "wizard.useDev !== 'yes'"
+        },
+        {
+            "match": ".+\\.gitkeep",
+            "if": "wizard.useGit !== 'yes'"
         }
     ],
     "rename": [

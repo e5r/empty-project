@@ -81,11 +81,9 @@
             "if": "wizard.useGit !== 'yes'"
         }
     ],
-    "rename": [
-        {
-            ".gitignore": ".gitignore_project"
-        }
-    ],
+    "rename": {
+        ".gitignore": ".gitignore_project"
+    },
     "expandExcludes": [
         "_builder/.+",
         "doc/dev",

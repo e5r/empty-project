@@ -12,7 +12,7 @@ var gulp = require('gulp'),
     ];
 
 gulp.task('dist', [], function () {
-    if (0 > tasks.length) {
+    if (0 < tasks.length) {
         run(tasks);
     }
 });

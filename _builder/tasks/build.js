@@ -13,6 +13,6 @@ var gulp = require('gulp'),
 
 gulp.task('build', [], function () {
     if (0 < tasks.length) {
-        run(tasks);
+        run.apply(run, tasks);
     }
 });

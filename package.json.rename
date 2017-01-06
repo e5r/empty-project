@@ -1,9 +1,9 @@
 {
-    "name": "e5r.empty-project",
+    "name": "{% wizard.name %}",
     "version": "1.0.0",
-    "description": "Project Template for E5R Development Team Tool",
-    "author": "E5R Development Team",
-    "license": "Apache-2.0",
+    "description": "{% wizard.description %}",
+    "author": "{% wizard.author %}",
+    "license": "{% wizard.license %}",
     "readme": "README.rst",
     "devDependencies": {
         "gulp": "~3.9.1",

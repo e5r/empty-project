@@ -73,6 +73,10 @@
             "if": "true"
         },
         {
+            "match": "package.json",
+            "if": "true"
+        },
+        {
             "path": "_builder/dev",
             "if": "wizard.useDev !== 'yes'"
         },
@@ -82,17 +86,23 @@
         }
     ],
     "rename": {
-        ".gitignore": ".gitignore_project"
+        ".gitignore": "gitignore.rename",
+        "package.json": "package.json.rename"
     },
     "expandExcludes": [
         "_builder/.+",
         "doc/dev",
+        "doc/sample",
         "doc/user",
         "src/.+",
         "test/.+",
-        "\\.gitignore"
+        "\\.gitignore",
+        "package.json",
+        "jsconfig.json"
     ],
     "copyExcludes": [
-        "\\.gitignore"
+        "\\.gitignore",
+        "package.json",
+        "jsconfig.json"
     ]
 }

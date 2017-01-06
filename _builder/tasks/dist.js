@@ -11,7 +11,7 @@ var gulp = require('gulp'),
         /** @todo: Add dist tasks here! */
     ];
 
-gulp.task('dist', ['build'], function () {
+gulp.task('dist', [], function () {
     if (0 < tasks.length) {
         run.apply(run, tasks);
     }

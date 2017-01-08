@@ -4,7 +4,7 @@
 # Licensed under the Apache License, Version 2.0.
 # More license information in https://github.com/e5r/licenses/blob/master/notices/empty-project.rst.
 
-BOOT_CHECK="./check.sh"
+BOOT_CHECK="./_builder/check.sh"
 BOOT_NODEMINVERSION=5
 BOOT_NPMMINVERSION=3
 

@@ -14,7 +14,7 @@ function loadBuildMeta() {
         } catch (_) { }
     }
 
-    return buildMeta;
+    return buildMeta || {};
 }
 
 module.exports.loadTasks = function () {

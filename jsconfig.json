@@ -6,6 +6,7 @@
     "exclude": [
         "_builder",
         "doc",
+        "dist",
         "node_modules"
     ]
 }

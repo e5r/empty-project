@@ -9,7 +9,6 @@
         "gulp": "~3.9.1",
         "gulp-util": "~3.0.7",
         "require-dir": "~0.3.0",
-        "run-sequence": "~1.2.1",
-        "e5r-dev": "~0.10.3"
+        "run-sequence": "~1.2.1"
     }
 }

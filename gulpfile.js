@@ -3,10 +3,10 @@
 
 var customTasksPath = './scripts/tasks',
     requireDir = require('require-dir'),
-    e5rDev = require('e5r-dev');
+    fs = require('fs');
 
 requireDir('./_builder/tasks', { recurse: false });
 
-if (e5rDev.directoryExists(customTasksPath)) {
+if (fs.existsSync(customTasksPath)) {
     requireDir(customTasksPath, { recurse: true });
 }

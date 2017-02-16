@@ -2,13 +2,13 @@
 // Licensed under the Apache License, Version 2.0.
 // More license information in https://github.com/e5r/licenses/blob/master/notices/empty-project.rst.
 
-var e5rDev = require('e5r-dev'),
+var fs = require('fs'),
     path = require('path'),
     buildMetaFilePath = path.join(path.dirname(module.filename), '../build.json'),
     buildMeta;
 
 function loadBuildMeta() {
-    if (!buildMeta && e5rDev.fileExists(buildMetaFilePath)) {
+    if (!buildMeta && fs.existsSync(buildMetaFilePath)) {
         try {
             buildMeta = require(buildMetaFilePath);
         } catch (_) { }
